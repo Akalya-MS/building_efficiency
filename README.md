@@ -17,7 +17,7 @@ The goal of this project is to predict the Heating Load (HL) and Cooling Load (C
   * Cooling Load (CL)
 
 ## Preprocessing Steps
-* Checked for null values – None found.
+* Checked for null values 
 * Computed mean, median, mode, and standard deviation (SD) for each feature to understand data distribution.
 * Standardized numerical features for consistent scale.
 * Split the dataset into 80% training and 20% testing sets.
@@ -37,8 +37,11 @@ The goal of this project is to predict the Heating Load (HL) and Cooling Load (C
 
 | Target       | R² Score | MAE  | MSE  |
 | ------------ | -------- | ---- | ---- |
-| Heating Load | 0.98     | 0.35 | 0.26 |
-| Cooling Load | 0.97     | 0.40 | 0.30 |
+| Heating Load | 1.00     | 0.38 | 0.33 |
+| Cooling Load | 0.98     | 0.92 | 1.80 |
+
+
+
 
 
 
